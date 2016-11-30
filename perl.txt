@@ -1,0 +1,7 @@
+--- Perl Tricks ---
+
+Convert tab to space
+perl -pi.old -e 's{\t}{        }g' *.cc
+
+Replace word in multiple files
+perl -i -pe 's/original/replacement/g' *.txt

@@ -1,0 +1,24 @@
+----------------  Git Notes  -------------------
+
+--- Branches ---
+See branches
+	git branch
+Go to other branch
+	git checkout <branch_name>
+Create branch
+	git checkout -b <branch_name>
+Create remote branch
+	git push origin <branch_name>
+Delete branch
+	git branch -d <branch_name>
+Delete remote branch
+	git push origin --delete <branch_name>
+Merge (merges other branch to current branch)
+	git merge <branch_name>
+
+
+Get URL
+	git config --get remote.origin.url
+
+Revert changes for file.c
+	git checkout file.c  OR  git checkout -- file.c

@@ -1,0 +1,5 @@
+--- VIM Retab ---
+
+:set expandtab
+:set tabstop=4
+:retab
